@@ -6,11 +6,11 @@ exports.run = async (client, message, args) => {
 
 const yardım = new Discord.MessageEmbed()
 .setColor("BLUE")
-.setAuthor("<a:hype_sari:779738454321135636> Burness v12 sürümüyle sizlerle.")
-.setTitle("<a:hype_sari:779738454321135636> Burness'in yardım menüsüne hoşgeldin! <a:Yldz:742698148329291826>")
+.setAuthor("Burness v12 sürümüyle sizlerle.")
+.setTitle("<a:hype_sari:779738454321135636> ᘜ Rêsurrêctiøn'un Yardım Menüsüne Hoş Geldin ! ")
  .setTimestamp()
-.setDescription("<a:770669258811113513:779738395558805524> **.eğlence** = __Eğlence komutlarını görüntülersiniz.__ \n <a:carkv2:779738412974211122> **-moderasyon** = __Moderasyon komutlarını görüntülersiniz.__ \n <a:carkv2:779738412974211122> **-kullanıcı** = __Kullanıcı komutlarını görüntülersiniz.__ \n <a:carkv2:779738412974211122>**-logo** = __Logo komutlarını görüntülersiniz.__")
-.setImage("https://cdn.discordapp.com/attachments/754990680102928404/779765895865303040/Bu.png")
+.setDescription("<a:770669258811113513:779738395558805524> **.eğlence** = __Eğlence komutlarını görüntülersiniz.__ \n <a:carkv2:779738412974211122> **.moderasyon** = __Moderasyon komutlarını görüntülersiniz.__ \n <a:carkv2:779738412974211122> **.kullanıcı** = __Kullanıcı komutlarını görüntülersiniz.__ \n <a:carkv2:779738412974211122>**.  logo** = __Logo komutlarını görüntülersiniz.__")
+.setImage("https://dynamic.brandcrowd.com/asset/logo/f802ad87-f5ae-491f-9a02-89ee701b588f/logo?v=4&text=Resurrection")
 message.channel.send(yardım)
 }
 
