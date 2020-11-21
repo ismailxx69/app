@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
   const davet = new Discord.MessageEmbed()
   .setColor("RANDOM")
   .setTitle("Beni Sunucuna Ekle ❤️")
-  .setDescription("[__**Davet Et**__](https://discord.com/api/oauth2/authorize?client_id=722377982773035020&permissions=8&scope=bot) \n [__**Destek Sunucusu**__](https://discord.gg/crBgspj)")
+  .setDescription("[__**Davet Et**__](https://discord.com/oauth2/authorize?client_id=779723665516396594&scope=bot&permissions=2146958847) \n [__**Destek Sunucusu**__](BURNESS PUBLİC BOT)")
   message.channel.send(davet)
 }
 
@@ -13,12 +13,12 @@ exports.run = (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: [],
+  aliases: ['davet'],
   permLevel: 0
 };
 
 exports.help = {
   name: 'davet',
   description: '',
-  usage: ''
+  usage: 'davet'
 };
