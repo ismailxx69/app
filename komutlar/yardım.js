@@ -6,11 +6,11 @@ exports.run = async (client, message, args) => {
 
 const yardım = new Discord.MessageEmbed()
 .setColor("BLUE")
-.setAuthor("Destiny v12 sürümüyle yeniden sizlerle.")
-.setTitle("<a:Yldz:742698148329291826> Destiny'in yardım menüsüne hoşgeldin! <a:Yldz:742698148329291826>")
+.setAuthor("<a:hype_sari:779738454321135636> Burness v12 sürümüyle sizlerle.")
+.setTitle("<a:hype_sari:779738454321135636> Burness'in yardım menüsüne hoşgeldin! <a:Yldz:742698148329291826>")
  .setTimestamp()
-.setDescription("<a:destinyhype:751090021859196968> **-eğlence** = __Eğlence komutlarını görüntülersiniz.__ \n <a:ayarlardestiny:751089592245158030> **-moderasyon** = __Moderasyon komutlarını görüntülersiniz.__ \n <a:partnerdestiny:751089594694631465> **-kullanıcı** = __Kullanıcı komutlarını görüntülersiniz.__ \n <a:Yldz:742698148329291826> **-logo** = __Logo komutlarını görüntülersiniz.__")
-.setImage("https://cdn.discordapp.com/attachments/744536225230094360/751100899836821534/Night_Sky_Mountain_Decorative_Border_Youtube_Thumbnail.png")
+.setDescription("<a:770669258811113513:779738395558805524> **.eğlence** = __Eğlence komutlarını görüntülersiniz.__ \n <a:carkv2:779738412974211122> **-moderasyon** = __Moderasyon komutlarını görüntülersiniz.__ \n <a:carkv2:779738412974211122> **-kullanıcı** = __Kullanıcı komutlarını görüntülersiniz.__ \n <a:carkv2:779738412974211122>**-logo** = __Logo komutlarını görüntülersiniz.__")
+.setImage("https://cdn.discordapp.com/attachments/754990680102928404/779765895865303040/Bu.png")
 message.channel.send(yardım)
 }
 
