@@ -13,13 +13,13 @@ if(isNaN(args[0])) {
 return message.channel.send(errembed);
 }
   
-if (args[0] < 1) return message.reply("**1** adetten az mesaj silemem!")
-if (args[0] > 100) return message.reply("**100** adetten fazla mesaj silemem!")
+if (args[0] < 1) return message.reply(":x: **1** adetten az mesaj silemem!")
+if (args[0] > 100) return message.reply(":x: **100** adetten fazla mesaj silemem!")
   
 message.channel.bulkDelete(args[0]).then(deletedMessages => {
-if (deletedMessages.size < 1) return message.reply("Hiç mesaj silemedim! _(**14** günden önceki mesajları silemem!)_");
+if (deletedMessages.size < 1) return message.reply(":x: Hiç mesaj silemedim! _(**14** günden önceki mesajları silemem!)_");
 })
-message.channel.send(`**${args[0]}** adet mesaj başarıyla silindi!`)
+message.channel.send(`<a:tik:779738442249797675> **${args[0]}** adet mesaj başarıyla silindi!`)
 };
 
 exports.conf = {
