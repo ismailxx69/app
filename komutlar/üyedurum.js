@@ -24,5 +24,5 @@ module.exports.conf = {
 module.exports.help = {
   name: "üyedurum",
   description: "",
-  usage: ""
+  usage: "üyedurum"
 };
