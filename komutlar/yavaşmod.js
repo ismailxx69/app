@@ -12,7 +12,7 @@ const limit = args[0] ? args[0] : 0;
             return
           }
 if (limit > 120) {
-    return message.channel.send(new Discord.MessageEmbed().setDescription("Süre limiti maksimum **120** saniye olabilir.").setColor("#36393F"));
+    return message.channel.send(new Discord.MessageEmbed().setDescription(":x: Süre limiti maksimum **120** saniye olabilir.").setColor("#36393F"));
 }
     message.channel.send(new Discord.MessageEmbed().setDescription(`Yazma süre limiti **${limit}** saniye olarak ayarlanmıştır.`).setColor("#36393F"));
 var request = require('request');

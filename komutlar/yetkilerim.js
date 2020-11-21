@@ -17,47 +17,47 @@ let x;
     let x11;
     
     //yönetici
-    if (msg.member.hasPermission("ADMINISTRATOR")) x = ":white_check_mark:"
+    if (msg.member.hasPermission("ADMINISTRATOR")) x = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("ADMINISTRATOR")) x = ":x: "
     
     //Denetim kaydı
-    if (msg.member.hasPermission("VIEW_AUDIT_LOG")) x2 = ":white_check_mark:"
+    if (msg.member.hasPermission("VIEW_AUDIT_LOG")) x2 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("VIEW_AUDIT_LOG")) x2 = ":x: "
     
     //Sunucuyu yönet
-    if (msg.member.hasPermission("MANAGE_GUILD")) x3 = ":white_check_mark:"
+    if (msg.member.hasPermission("MANAGE_GUILD")) x3 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("MANAGE_GUILD")) x3 = ":x: "
     
     //Rolleri yönet
-    if (msg.member.hasPermission("MANAGE_ROLES")) x4 = ":white_check_mark:"
+    if (msg.member.hasPermission("MANAGE_ROLES")) x4 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("MANAGE_ROLES")) x4 = ":x: "
     
     //Kanalları yönet
-    if (msg.member.hasPermission("MANAGE_CHANNELS")) x5 = ":white_check_mark:"
+    if (msg.member.hasPermission("MANAGE_CHANNELS")) x5 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("MANAGE_CHANNELS")) x5 = ":x: "
     
     //üyeleri at
-    if (msg.member.hasPermission("KICK_MEMBERS")) x6 = ":white_check_mark:"
+    if (msg.member.hasPermission("KICK_MEMBERS")) x6 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("KICK_MEMBERS")) x6 = ":x: "
     
     //üyeleri yasakla
-    if (msg.member.hasPermission("BAN_MEMBERS")) x7 = ":white_check_mark:"
+    if (msg.member.hasPermission("BAN_MEMBERS")) x7 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("BAN_MEMBERS")) x7 = ":x: "
     
     //mesajları yönet
-    if (msg.member.hasPermission("MANAGE_MESSAGES")) x8 = ":white_check_mark:"
+    if (msg.member.hasPermission("MANAGE_MESSAGES")) x8 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("MANAGE_MESSAGES")) x8 = ":x: "
     
     //kullanıcı adlarını yönet
-    if (msg.member.hasPermission("MANAGE_NICKNAMES")) x9 = ":white_check_mark:"
+    if (msg.member.hasPermission("MANAGE_NICKNAMES")) x9 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("MANAGE_NICKNAMES")) x9 = ":x: "
     
     //emojileri yönet
-    if (msg.member.hasPermission("MANAGE_EMOJIS")) x10 = ":white_check_mark:"
+    if (msg.member.hasPermission("MANAGE_EMOJIS")) x10 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("MANAGE_EMOJIS")) x10 = ":x: "
     
     //webhookları yönet
-    if (msg.member.hasPermission("MANAGE_WEBHOOKS")) x11 = ":white_check_mark:"
+    if (msg.member.hasPermission("MANAGE_WEBHOOKS")) x11 = "<a:tik:779738442249797675>"
     if (!msg.member.hasPermission("MANAGE_WEBHOOKS")) x11 = ":x: "
      const embed = new Discord.MessageEmbed()
   .setColor('GREEN')
