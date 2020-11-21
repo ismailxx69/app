@@ -35,7 +35,7 @@ client.on("message", message => {
 
 client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
-  client.user.setStatus("dnd");
+  client.user.setStatus("idle");
   client.user.setActivity('Burness 💞 Fadness');
 })
 
