@@ -52,6 +52,20 @@ exports.run = async (client, message, args) => {
 						max: 1,
 						time: 30000
 					});
+
+client.on("userUpdate", async (oldUser, newUser) => {
+if (oldUser.username !== newUser.username) {
+let tag = "ᘜ"; ///////tag girin
+let sunucu = "779409719021273168"; ///////sunucunuzun id
+let kanal = "779443273725902909" ///////log tutulcak kanal id
+let rol = "779433984902955080"; /////tag aldımı verilmesini istediğiniz rol id
+if (newUser.username.includes(tag) && !client.guilds.get(sunucu).members.get(newUser.id).roles.has(rol)) {
+client.channels.get(kanal).send(`**${newUser} adlı kişi ${tag} tagımızı aldığı için <@&${rol}> rolü verildi !**`)
+client.guilds.get(sunucu).members.get(newUser.id).addRole(rol) }
+if (!newUser.username.includes(tag) && client.guilds.get(sunucu).members.get(newUser.id).roles.has(rol)) {
+client.guilds.get(sunucu).members.get(newUser.id).removeRole(rol)
+client.channels.get(kanal).send(`**${newUser} adlı kişi ${tag} tagımızı çıkardığı için <@&${rol}> rolü alındı !**`) } } })
+
 					if (!turn.size) {
 						await message.reply(`Üzgünüm ama, süre doldu!`);
 						reset();
