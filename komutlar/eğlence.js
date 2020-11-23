@@ -6,11 +6,11 @@ exports.run = async (client, message, args) => {
 
 const eğlence = new Discord.MessageEmbed()
 .setColor("RANDOM")
-.setAuthor("Destiny v12 sürümüyle yeniden sizlerle.")
-.setTitle("<a:Yldz:742698148329291826> Destiny Eğlence Komutları <a:Yldz:742698148329291826>")
+.setAuthor("Resurrection")
+.setTitle("<a:carkv2:779738412974211122> Burness Eğlence Komutları <a:carkv2:779738412974211122>")
  .setTimestamp()
-.setDescription("<a:yan:750065080741134407> **-tersyazı** = Bir Yazıyı Bot Ters Yazar. <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-mcskin** = Yazdığınız ismin minecraft görünüşünü atar. <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-fbi** = Bot FBi Gif Atar. <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-token** = Tokenimi Öğrenmek İstemezmisin? <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-düello** = Düello Atarsın. <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-wasted** = Polis tarafından yakalanırsın. <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-atatürk** = Dene ve gör... (1881-1938) <a:developeremoji:749525084586115153>")
-.setImage("https://cdn.discordapp.com/attachments/744536225230094360/751100899836821534/Night_Sky_Mountain_Decorative_Border_Youtube_Thumbnail.png")
+.setDescription("<a:carkv2:779738412974211122> **-tersyazı** = Bir Yazıyı Bot Ters Yazar. <a:carkv2:779738412974211122> \n <a:carkv2:779738412974211122> **-mcskin** = Yazdığınız ismin minecraft görünüşünü atar. <a:carkv2:779738412974211122> \n <a:carkv2:779738412974211122> **-fbi** = Bot FBi Gif Atar. <a:carkv2:779738412974211122> \n <a:carkv2:779738412974211122> **.fadness** = Ne Olduğunu Öğrenmek İstemezmisin? <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-düello** = Düello Atarsın. <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-wasted** = Polis tarafından yakalanırsın. <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-atatürk** = Dene ve gör... (1881-1938) <a:developeremoji:749525084586115153>")
+.setImage("https://dynamic.brandcrowd.com/asset/logo/f802ad87-f5ae-491f-9a02-89ee701b588f/logo?v=4&text=Resurrection")
 message.channel.send(eğlence)
 }
 
